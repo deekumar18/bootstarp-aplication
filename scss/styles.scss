@@ -1,6 +1,23 @@
 
-$font-stack:    Helvetica, sans-serif  
+@import 'reset';
+
+$font-stack:    'Architects Daughter';
+$primary-color: #333;
+$myBtn_Color: #000088;
+
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+ 
+}
 
 img {
     width: 60px;
+}
+
+.btn-primary {   
+    background-color: #000088;
+    border-color: #000088;
 }

@@ -1,2 +1,17 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% "Architects Daughter";
+  color: #333; }
+
 img {
   width: 60px; }
+
+.btn-primary {
+  background-color: #000088;
+  border-color: #000088; }
